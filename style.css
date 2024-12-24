@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@media (max-width: 100px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 650px) {
+  .card {
+    display: block;
+    text-align: center;
+  }
+}
+body {
+  font-size: 20px;
+  font-family: "Robota" sans-serif;
+  font-weight: bold;
+  color: #0f141e;
+}
+.card {
+  border-radius: 20px;
+  background: #fff;
+  padding: 15px 15px;
+  margin-bottom: 20px;
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+.bg-yellow {
+  background: #e9d46e;
+}
+.bg-red {
+  background: #df8d8d;
+}
+.bg-green {
+  background: #bbdabd;
+}
+.container {
+  display: block;
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+.info {
+  margin-bottom: 20px;
+}
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(161, 31, 31, 0.25);
+}
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+}
+.btn:hover {
+  opacity: 0.8;
+  color: orange;
+}
+a :visited {
+  color: red;
+}
+a:hover {
+  color: orange;
+}
+a:active {
+  color: blue;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
